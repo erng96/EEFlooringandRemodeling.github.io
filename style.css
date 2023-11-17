@@ -1,84 +1,39 @@
 
-
-html {
-    background-color: rgba(135, 140, 215, 0.872);
+.wrapper {
+    display: grid;
+   
+    font-family: "Lilita One", "zeyada";
 }
-.main-body {
-    position: relative;
-    font-size: 15px;
+.main-title{
+    justify-self:center;
 }
-.navigation {
-    position: relative;
-    left:33rem;
-    max-width: 45rem;
-    background-color: rgb(145, 148, 243);
-    display: grid;;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 3rem);
-    text-align: center;
-}
-.navigation a:link {
-    color: white;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 1.5rem;
+.main-title img {
+   width:75%;
+   aspect-ratio: 1/1;
 }
 
-.navigation a:visited {
-    color: purple;
-}
-
-.navigation a:hover {
-    color: rgb(15, 89, 200);
-
-    box-shadow: 0rem .5rem;
-    background-color: aqua;
-    border-radius: 1.5rem;
-}
-.navigation a:active {
-    box-shadow: 0rem 0rem;
-}
-
-.main-logo{
-    height: 30rem;
-    mix-blend-mode: multiply;
-}
-
-.container {
-
-    color: white;
-    font-size: 4.5rem;
-    min-width: 1rem;
-    max-width: 45rem;
-    Margin: 0rem auto;
-}
 #Gallery {
-    gap: 2.5rem;
-    display:grid;
-    grid-template-columns: repeat(2, 1fr)
+ justify-content: center;
+ padding: 10%;   
+ display: grid;
+ gap: 1.5rem;
+ grid-template-columns: repeat(auto-fit, minmax(10rem, 425px));
+}
+#Gallery img {
+    width: 100%;
+    aspect-ratio: 1/1;
     
 }
+
+.info  {
+    font-size:3.8vb;
+    line-height: 2.3rem;
+    font-family: "Bebas Neue" "Neuton";
     
-div.Galler-photo {
-    font-style:'mono space' monospace;
-    font-size: 1.5rem;
-}
-div.Galler-photo img  {
-border: 1rem solid rgba(135, 140, 215, 0.872);
-width: 100%;
-height: 25rem;
 }
 
-.info {
-    font-size: 3.5rem;
-}
-
-.info a {
-    color: white;
-    text-decoration: none;
-    font-family: monospace;
-}
-.info a:hover {
-    color: rgb(15, 89, 200);
-    background-color: aqua;
+.back-ground {
+    padding: 5rem;
+    background-color:rgba(33, 27, 121, 0.932);
+    color: whitesmoke;
 }
